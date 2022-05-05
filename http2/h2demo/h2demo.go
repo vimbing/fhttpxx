@@ -7,7 +7,6 @@ package main
 import (
 	"bytes"
 	"context"
-	tls "github.com/Carcraftz/utls"
 	"flag"
 	"fmt"
 	"hash/crc32"
@@ -26,8 +25,10 @@ import (
 	"sync"
 	"time"
 
+	tls "github.com/Carcraftz/utls"
+
 	"cloud.google.com/go/storage"
-	"github.com/Carcraftz/fhttp/http2"
+	"github.com/vimbing/fhttp/http2"
 	"go4.org/syncutil/singleflight"
 	"golang.org/x/build/autocertcache"
 	"golang.org/x/crypto/acme/autocert"

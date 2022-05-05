@@ -15,7 +15,6 @@ import (
 	"compress/gzip"
 	"context"
 	"crypto/rand"
-	tls "github.com/Carcraftz/utls"
 	"crypto/x509"
 	"encoding/binary"
 	"errors"
@@ -38,12 +37,14 @@ import (
 	"testing/iotest"
 	"time"
 
-	. "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptest"
-	"github.com/Carcraftz/fhttp/httptrace"
-	"github.com/Carcraftz/fhttp/httputil"
-	"github.com/Carcraftz/fhttp/internal"
-	"github.com/Carcraftz/fhttp/internal/nettrace"
+	tls "github.com/vimbing/utls"
+
+	. "github.com/vimbing/fhttp"
+	"github.com/vimbing/fhttp/httptest"
+	"github.com/vimbing/fhttp/httptrace"
+	"github.com/vimbing/fhttp/httputil"
+	"github.com/vimbing/fhttp/internal"
+	"github.com/vimbing/fhttp/internal/nettrace"
 
 	"golang.org/x/net/http/httpguts"
 )

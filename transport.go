@@ -14,7 +14,6 @@ import (
 
 	"container/list"
 	"context"
-	tls "github.com/Carcraftz/utls"
 	"errors"
 	"fmt"
 	"io"
@@ -29,7 +28,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Carcraftz/fhttp/httptrace"
+	tls "github.com/Carcraftz/utls"
+
+	"github.com/vimbing/fhttp/httptrace"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http/httpproxy"

@@ -7,10 +7,11 @@
 package http2
 
 import (
-	tls "github.com/Carcraftz/utls"
 	"sync"
 
-	http "github.com/Carcraftz/fhttp"
+	tls "github.com/Carcraftz/utls"
+
+	http "github.com/vimbing/fhttp"
 )
 
 // ClientConnPool manages a pool of HTTP/2 client connections.

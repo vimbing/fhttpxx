@@ -8,11 +8,12 @@ package httptest
 import (
 	"bufio"
 	"bytes"
-	tls "github.com/Carcraftz/utls"
 	"io"
 	"strings"
 
-	http "github.com/Carcraftz/fhttp"
+	tls "github.com/Carcraftz/utls"
+
+	http "github.com/vimbing/fhttp"
 )
 
 // NewRequest returns a new incoming server Request, suitable

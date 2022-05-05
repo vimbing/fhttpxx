@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	http "github.com/Carcraftz/fhttp"
+	http "github.com/vimbing/fhttp"
 )
 
 var (

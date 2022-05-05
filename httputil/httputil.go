@@ -9,7 +9,7 @@ package httputil
 import (
 	"io"
 
-	"github.com/Carcraftz/fhttp/internal"
+	"github.com/vimbing/fhttp/internal"
 )
 
 // NewChunkedReader returns a new chunkedReader that translates the data read from r

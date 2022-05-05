@@ -8,7 +8,6 @@ package http
 
 import (
 	"bytes"
-	tls "github.com/Carcraftz/utls"
 	"errors"
 	"fmt"
 	"io"
@@ -17,7 +16,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Carcraftz/fhttp/internal"
+	tls "github.com/Carcraftz/utls"
+
+	"github.com/vimbing/fhttp/internal"
 )
 
 // Issue 15446: incorrect wrapping of errors when server closes an idle connection.

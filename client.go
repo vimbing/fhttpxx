@@ -11,7 +11,6 @@ package http
 
 import (
 	"context"
-	tls "github.com/Carcraftz/utls"
 	"encoding/base64"
 	"errors"
 	"fmt"
@@ -23,6 +22,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	tls "github.com/Carcraftz/utls"
 )
 
 // A Client is an HTTP client. Its zero value (DefaultClient) is a

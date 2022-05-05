@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	http "github.com/Carcraftz/fhttp"
+	http "github.com/vimbing/fhttp"
 )
 
 // tNow is the synthetic current time used as now during testing.

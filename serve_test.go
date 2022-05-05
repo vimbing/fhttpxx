@@ -12,7 +12,6 @@ import (
 	"compress/gzip"
 	"compress/zlib"
 	"context"
-	tls "github.com/Carcraftz/utls"
 	"encoding/json"
 	"errors"
 	"fmt"
@@ -36,11 +35,13 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptest"
-	"github.com/Carcraftz/fhttp/httputil"
-	"github.com/Carcraftz/fhttp/internal"
-	"github.com/Carcraftz/fhttp/internal/testenv"
+	tls "github.com/Carcraftz/utls"
+
+	. "github.com/vimbing/fhttp"
+	"github.com/vimbing/fhttp/httptest"
+	"github.com/vimbing/fhttp/httputil"
+	"github.com/vimbing/fhttp/internal"
+	"github.com/vimbing/fhttp/internal/testenv"
 )
 
 type dummyAddr string
