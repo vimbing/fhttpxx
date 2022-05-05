@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Carcraftz/fhttp/httptrace"
-	"github.com/Carcraftz/fhttp/internal"
+	"github.com/vimbing/fhttp/httptrace"
+	"github.com/vimbing/fhttp/internal"
 
 	"golang.org/x/net/http/httpguts"
 )
