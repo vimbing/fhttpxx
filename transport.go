@@ -4,7 +4,7 @@
 
 // Transport code.
 
-package http2
+package http
 
 import (
 	"bufio"
