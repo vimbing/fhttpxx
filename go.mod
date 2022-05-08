@@ -1,4 +1,4 @@
-module github.com/vimbing/fhttp
+module github.com/Carcraftz/fhttp
 
 go 1.16
 
