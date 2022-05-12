@@ -9,9 +9,9 @@ import (
 	"log"
 	"net/url"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/cookiejar"
-	"github.com/Carcraftz/fhttp/httptest"
+	http "github.com/vimbing/fhttp"
+	"github.com/vimbing/fhttp/cookiejar"
+	"github.com/vimbing/fhttp/httptest"
 )
 
 func ExampleNew() {

@@ -28,9 +28,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/httptest"
-	"github.com/Carcraftz/fhttp/httputil"
+	. "github.com/vimbing/fhttp"
+	"github.com/vimbing/fhttp/httptest"
+	"github.com/vimbing/fhttp/httputil"
 )
 
 type clientServerTest struct {

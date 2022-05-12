@@ -18,7 +18,7 @@ import (
 	"strconv"
 	"sync"
 
-	http "github.com/Carcraftz/fhttp"
+	http "github.com/vimbing/fhttp"
 )
 
 // hello world, the web server

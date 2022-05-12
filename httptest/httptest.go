@@ -12,7 +12,7 @@ import (
 	"io"
 	"strings"
 
-	http "github.com/Carcraftz/fhttp"
+	http "github.com/vimbing/fhttp"
 )
 
 // NewRequest returns a new incoming server Request, suitable

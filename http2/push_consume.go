@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"net/url"
 
-	http "github.com/Carcraftz/fhttp"
+	http "github.com/vimbing/fhttp"
 )
 
 var (

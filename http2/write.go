@@ -10,8 +10,8 @@ import (
 	"log"
 	"net/url"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/http2/hpack"
+	http "github.com/vimbing/fhttp"
+	"github.com/vimbing/fhttp/http2/hpack"
 
 	"golang.org/x/net/http/httpguts"
 )

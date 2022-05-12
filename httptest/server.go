@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/internal"
+	http "github.com/vimbing/fhttp"
+	"github.com/vimbing/fhttp/internal"
 )
 
 // A Server is an HTTP server listening on a system-chosen port on the

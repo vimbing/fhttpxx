@@ -2,7 +2,7 @@
 
 <!-- This note is not necessary on this repo, but I won't delete it as it should be included on the original one.
 **NOTE**
-This maintenance of this library has moved over to [Carcraftz](https://github.com/Carcraftz/fhttp). The only use for this repository is so imports will not break.
+This maintenance of this library has moved over to [Carcraftz](https://github.com/vimbing/fhttp). The only use for this repository is so imports will not break.
 
 The "f" stands for "fly" *(or "flex")*. fhttp is a fork of `net/http` that provides an array of features pertaining to the fingerprint of the golang `http` client. Through these changes, the `http` client becomes much more flexible, and when combined with transports such as [uTLS](https://github.com/refraction-networking/utls) it can mitigate fingerprinting requests, reducing the chances that a server detects they were made by a golang program, instead having them appear to originate from a regular Chrome browser.
 
@@ -104,7 +104,7 @@ with
 
 ```go
 import (
-    http "github.com/Carcraftz/fhttp"
+    http "github.com/vimbing/fhttp"
 )
 ```
 

@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	http "github.com/Carcraftz/fhttp"
-	"github.com/Carcraftz/fhttp/http2"
+	http "github.com/vimbing/fhttp"
+	"github.com/vimbing/fhttp/http2"
 )
 
 // Basic http test with Header Order + enable push
