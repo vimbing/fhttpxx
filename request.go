@@ -10,7 +10,6 @@ import (
 	"bufio"
 	"bytes"
 	"context"
-	tls "github.com/Carcraftz/utls"
 	"encoding/base64"
 	"errors"
 	"fmt"
@@ -24,6 +23,8 @@ import (
 	"strconv"
 	"strings"
 	"sync"
+
+	tls "github.com/Carcraftz/utls"
 
 	"github.com/vimbing/fhttp/httptrace"
 
